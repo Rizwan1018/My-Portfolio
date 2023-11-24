@@ -79,13 +79,24 @@ nav {
     height: auto; 
 }
 
+.empty0{
+    color: white;
+    background-color: black;
+    left: 1.3%;
+    top: 14%;
+    height: 70%;
+    width: 180px;
+    position: absolute;
+    background-color: rgb(25, 25, 25);
+}
+
 .sidebar{
     position: sticky;
 }
 
 .sidebar a {
   position: relative;
-  left: 10px;
+  left: 20px;
   top: 110px;
   font-size: 18px;
   color: #fff;
@@ -116,7 +127,7 @@ nav {
 
 .logo {
     margin: 2rem 0 1rem 0;
-    padding-bottom: 1rem; 
+    padding-bottom: 2rem; 
     display: flex;
     align-items: center;
 }
@@ -132,12 +143,12 @@ nav {
     text-transform: uppercase;
 }
 
-ul {
+ol {
     margin: 0 auto;
 }
 
 li {
-    padding-bottom: 1rem; 
+    padding-bottom: 1.3rem; 
 }
 
 li a {
@@ -161,22 +172,14 @@ nav i {
     align-content: center;
     color: aliceblue;
     top: 110px;
-    left: 18%;
+    left: 20%;
     border: #fff;
     /* z-index: 999; */
 }
 
-.skills .img1{
-  left: 16%;
-}
-
-.skills .img2{
-  left: 26rem;
-}
-
 .empty {
     top: 445px;
-    left: 17%; 
+    left: 19%; 
     width: 105%; 
     height: 18rem;
     position: absolute;
@@ -187,7 +190,7 @@ nav i {
 
 .empty2 {
     top: 800px;
-    left: 17%; 
+    left: 19%; 
     width: 105%; 
     height: 21rem;
     position: absolute;
@@ -198,7 +201,7 @@ nav i {
 
 .empty3{
     top: 140px;
-    left: 17%; 
+    left: 19%; 
     width: 105%; 
     height: 12rem;
     position: absolute;
@@ -214,7 +217,7 @@ nav i {
     height: 150px;
     border-radius: 75px;
     background-color: rgb(88, 87, 87);
-    left: 250px;
+    left: 260px;
     top: 160px;
     box-shadow:#353535 0.5px 0.5px 10px;
 }
@@ -226,7 +229,7 @@ nav i {
             color:aliceblue;
             font-style: italic;
             text-shadow: #444343 1px 1px 10px;
-            left: 35%;
+            left: 36%;
             top: 200px;
             z-index: 999;
     }
@@ -238,12 +241,12 @@ nav i {
                 font-weight: lighter;
                 text-shadow: #444343 1px 1px 10px;
                 font-family:Arial, Helvetica, sans-serif;
-                left: 35.5%;
+                left: 36.3%;
                 top: 240px;
                 z-index: 999;
     }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .header {
         padding: 20px 5%;
     }
@@ -255,12 +258,12 @@ nav i {
     li {
         padding-bottom: 1rem;
     }
-}
+} */
 
 .img1{
-  position: absolute;
+  position:relative;
   top: 360px;
-  left: 4.3rem ;
+  left: 2%;
   background-color: rgb(37, 35, 35);
   padding: 20px;
   border-radius: 10px;
@@ -271,7 +274,7 @@ nav i {
 .img2{
   position: absolute;
   top: 360px;
-  left: 29rem;
+  left: 25rem;
   background-color: rgb(37, 35, 35);
   padding: 20px;
   border-radius: 10px;
@@ -282,44 +285,61 @@ nav i {
 .img3{
     position: absolute;
     top: 360px;
-    left: 687px;
+    left: 41rem;
+    background-color:  rgb(37, 35, 35); 
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.img4{
+    position: absolute;
+    top: 360px;
+    left: 57rem;
     background-color:  rgb(37, 35, 35); 
     padding: 40px;
     border-radius: 10px;
 }
 
 .img5{
-    position: absolute;
-    top: 360px;
-    left: 959px;
-    background-color:  rgb(37, 35, 35); 
-    padding: 40px;
-    border-radius: 10px;
-}
-
-.img6{
     position: relative;
     top: 798px;
-    left: -510px;
+    left: -490px;
     background-color:  rgb(37, 35, 35); 
     padding: 10px 10px 60px 10px;
     border-radius: 10px;
 }
 
-.img7{
+.img6{
     position: relative;
     top: 500px;
-    left: -40px;
+    left: -34px;
     background-color:  rgb(37, 35, 35); 
     padding: 10px;
     border-radius: 10px;
 }
 
+.img7{
+    position: absolute;
+    top: 51.5rem;
+    left: 64.4rem;
+    background-color:  rgb(37, 35, 35); 
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.pj{
+    position: relative;
+    color: #fff;
+    top: 765px;
+    left: -496px;
+}
+
+
 .proj-hd{
     position: absolute;
     color: #fff;
     top:1025px;
-    left: 320px;
+    left: 350px;
 }
 
 .proj-hd2{
@@ -344,13 +364,16 @@ nav i {
 }
 
 .nav-item1{
-  color: rgb(91, 145, 163);
-}
-.nav-item1 ::before{
-  content: '>';
+    color: rgb(124, 209, 237);
+    font-weight: bold;
 }
 
-@media (max-width: 768px) {
+.nav-item1 ::after{
+  content: '📲';
+  
+}
+
+/* @media (max-width: 768px) {
 
     .navbar a {
         font-size: 16px;
@@ -399,17 +422,11 @@ nav i {
         position: relative; 
         padding: 15px; 
     }
-}
-
-.pj{
-    position: relative;
-    color: #fff;
-    top: 765px;
-    left: -520px;
-}
+} */
 
 
-@media (max-width: 768px) {
+
+/* @media (max-width: 768px) {
     .header {
         padding: 10px 5%; 
     }
@@ -467,7 +484,7 @@ nav i {
         left: 0;
         text-align: center; 
     }
-}
+} */
 
 
 .skilltx{
